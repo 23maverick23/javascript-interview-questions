@@ -2,6 +2,7 @@ module.exports = {
 
     wordCounts: function(s) {
         // TODO: implement this function
+        // returns @obj: {data: [{@str: @int},]}
         var ws = s.split(" "),
             _len = ws.length,
             _re = /[\s\.\?\,\-\!]/gi,  // ignore " ".,-?!
